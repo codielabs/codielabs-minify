@@ -1,0 +1,19 @@
+{
+    "name": "codielabs/minify",
+    "description": "Minified CSS and javascript file for codeigniter 4",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Swan",
+            "email": "imenxboyssan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+           "Codielabs\\": "src"
+        }
+    }
+}
