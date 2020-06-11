@@ -1,6 +1,6 @@
 <?php namespace Codielabs;
 
-use Codielabs\Config\Minify;
+use Codielabs\Config\Minify as Config;
 
 class Minify
 {
@@ -11,7 +11,7 @@ class Minify
     {
         parent::__construct();
 
-        $this->config = new Minify();
+        $this->config = new Config();
     }    
 
     public function start()
